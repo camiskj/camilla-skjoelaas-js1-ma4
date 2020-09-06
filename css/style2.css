@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    font-size: 14px;
+}
+
+h1 {
+    margin: 20px 0 5px 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.gameContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameFrame {
+    background-color: lightsteelblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid darkslategrey;
+    width: 400px;
+}
+
+.gameFrame img {
+    width: inherit;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+a:visited {
+    color: darkslategrey;
+}
+
+a:hover, a:active {
+    color: darkslategrey;
+    text-decoration: underline;
+}
